@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "homepage": "https://github.com/Deepanshu775/interactive-resume",
+
     "emailjs-com": "^3.2.0",
     "react-scroll": "^1.9.0"
+    
   }
 }

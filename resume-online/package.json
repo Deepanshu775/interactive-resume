@@ -1,23 +1,21 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "emailjs-com": "^3.2.0",
-    "react-scroll": "^1.9.0"
-=======
   "name": "resume-online",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-   
-    
+    "preview": "vite preview",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "react-scroll": "^1.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -32,6 +30,5 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "vite": "^5.4.0"
->>>>>>> c7c2280 (Initial commit)
   }
 }
